@@ -1,0 +1,13 @@
+interface:
+  display_name: 效率优先 UI 设计
+  short_description: 设计、实现和审查紧凑清晰的浅色界面，统一组件规格、布局与交付自检
+  default_prompt: 用 $efficiency-ui 优化这个页面：保留现有功能，让首屏更清晰，统一组件规格。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
